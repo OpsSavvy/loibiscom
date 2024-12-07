@@ -2,6 +2,7 @@ wordpress:
   ingress:
     enabled: true
     host: loibis.com
+    ingressClassName: nginx
   storage: 50Gi
 mysql:
   storage: 20Gi
