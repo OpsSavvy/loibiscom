@@ -6,9 +6,8 @@ resources:
   - sealedsecret.yaml
 
 helmCharts:
-  - name: loibiscom
+  - name: wordpress
     releaseName: loibiscom
     namespace: loibiscom
     repo: https://opssavvy.github.io/helmcharts
-    chart: wordpress
     valuesFile: ./values.yaml
