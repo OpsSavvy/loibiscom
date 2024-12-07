@@ -9,4 +9,5 @@ helmCharts:
     releaseName: loibiscom
     namespace: loibiscom
     repo: https://opssavvy.github.io/helmcharts
+    version: 0.1.1
     valuesFile: ./values.yaml
