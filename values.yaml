@@ -1,0 +1,12 @@
+wordpress:
+  ingress:
+    enabled: true
+    host: loibis.com
+  storage: 50Gi
+mysql:
+  storage: 20Gi
+  secret:
+    name: mysql-wordpress-secret
+    rootPasswordKey: rootpassword
+    passwordKey: password
+
